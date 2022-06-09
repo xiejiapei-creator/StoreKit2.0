@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Products</key>
+	<array>
+		<string>com.nonconsumable.flowers.large</string>
+		<string>com.nonconsumable.flowers.small</string>
+		<string>com.nonconsumable.roses.large</string>
+		<string>com.nonconsumable.chocolates.small</string>
+		<string>com.consumable.plant.installation</string>
+		<string>com.subscription.vip.gold</string>
+		<string>com.subscription.vip.silver</string>
+		<string>com.subscription.vip.bronze</string>
+	</array>
+</dict>
+</plist>

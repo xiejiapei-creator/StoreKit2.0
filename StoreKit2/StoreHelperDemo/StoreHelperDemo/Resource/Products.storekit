@@ -1,0 +1,192 @@
+{
+  "identifier" : "2B418075",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "198",
+      "familyShareable" : false,
+      "internalID" : "48594F7A",
+      "localizations" : [
+        {
+          "description" : "鲜花向日葵配6朵香槟玫瑰花束",
+          "displayName" : "向日葵",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.nonconsumable.flowers.large",
+      "referenceName" : "向日葵",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "99",
+      "familyShareable" : false,
+      "internalID" : "FB9E68BF",
+      "localizations" : [
+        {
+          "description" : "11朵满天星甘菊混搭花束",
+          "displayName" : "满天星",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.nonconsumable.flowers.small",
+      "referenceName" : "满天星",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "278",
+      "familyShareable" : false,
+      "internalID" : "D0A0F198",
+      "localizations" : [
+        {
+          "description" : "有幸遇见恰好合拍，520送女友浪漫惊喜",
+          "displayName" : "红玫瑰",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.nonconsumable.roses.large",
+      "referenceName" : "红玫瑰",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "56",
+      "familyShareable" : true,
+      "internalID" : "6AE20A0C",
+      "localizations" : [
+        {
+          "description" : "一盒浓郁的巧克力",
+          "displayName" : "巧克力",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.nonconsumable.chocolates.small",
+      "referenceName" : "巧克力",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "324",
+      "familyShareable" : false,
+      "internalID" : "37B33974",
+      "localizations" : [
+        {
+          "description" : "VIP可享受定制花束服务",
+          "displayName" : "定制花束",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.consumable.plant.installation",
+      "referenceName" : "定制花束",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_CN",
+    "_storefront" : "CHN",
+    "_storeKitError" : 0,
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "8126C4BB",
+      "localizations" : [
+
+      ],
+      "name" : "VIP",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.8",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "AF41C8C8",
+          "introductoryOffer" : {
+            "displayPrice" : "9.99",
+            "internalID" : "D9531218",
+            "paymentMode" : "payUpFront",
+            "subscriptionPeriod" : "P2M"
+          },
+          "localizations" : [
+            {
+              "description" : "植物家庭护理，植物护理专家每周上门服务",
+              "displayName" : "金牌会员",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "com.subscription.vip.gold",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "金牌会员",
+          "subscriptionGroupID" : "8126C4BB",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "11.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "B8897679",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Visits twice a month by an expert",
+              "displayName" : "Silver",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "植物家庭护理，植物护理专家每月上门服务一次",
+              "displayName" : "银牌会员",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "com.subscription.vip.silver",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "银牌会员",
+          "subscriptionGroupID" : "8126C4BB",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "59041E8B",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "植物家庭护理，植物护理专家两月上门服务一次",
+              "displayName" : "铜牌会员",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "com.subscription.vip.bronze",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "铜牌会员",
+          "subscriptionGroupID" : "8126C4BB",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
